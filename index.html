@@ -8,7 +8,31 @@
     <title>Glassmorphism Product Card Slider</title>
   </head>
   <body>
-    <h1>Glassmorphism Product Card Slider</h1>
+    <div class="container">
+      <ul class="thumb">
+        <li onmouseover="changeImageSrc('./assets/black-converse.png')">
+          <img src="./assets/black-converse.png" alt="" />
+        </li>
+        <li onmouseover="changeImageSrc('./assets/brown-converse.png')">
+          <img src="./assets/brown-converse.png" alt="" />
+        </li>
+        <li onmouseover="changeImageSrc('./assets/green-converse.png')">
+          <img src="./assets/green-converse.png" alt="" />
+        </li>
+      </ul>
+      <div class="imgBox">
+        <h2>Converse All-star</h2>
+        <img src="./assets/black-converse.png" class="sneakers" alt="" />
+        <ul class="size">
+          <span>Size</span>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+        </ul>
+        <a href="#" class="btn">Add To Cart</a>
+      </div>
+    </div>
   </body>
   <script src="/script.js"></script>
 </html>
